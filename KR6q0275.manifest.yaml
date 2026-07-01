@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR6q0275/v1
+canonical_location: https://kanripo.org/bkk/KR6q0275/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 瑯琊慧覺禪師語錄（序）
+  identifiers:
+    alt_id:
+    - X69n1339
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X69/X69n1339.xml
+    old_id: X69n1339
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6q0275_000.yaml, hash: 'sha256:50ab259b9da01ef6690b234c2a0519183037388724c6d8ef0b1f7bff83082660'}
+  - {seq: 1, filename: KR6q0275_001.yaml, hash: 'sha256:bbd01cc980b72e5a84a0aa50cf047dec17a675789bafea74654c860e88d0b0c2'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6q0275_001.markers.yaml, hash: 'sha256:05a80e3ca2c90353dcbf6b4f8fb06762827640d68d40ce89111875fe6851fc52'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6q0275_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 405
+  label: ''
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0275_X_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: No. 1339-A 滌州琅邪山覺和尚中後四錄
+  type: mulu
+  level: 1
+hash: sha256:e49789c1d5c10bd94e9984c3816bcdda6bd06f87f8930ea2c7e79218f92f9c68
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
