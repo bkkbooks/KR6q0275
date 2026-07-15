@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6q0275/v1
 canonical_location: https://kanripo.org/bkk/KR6q0275/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 瑯琊慧覺禪師語錄（序）
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6q0275_000.yaml, hash: 'sha256:50ab259b9da01ef6690b234c2a0519183037388724c6d8ef0b1f7bff83082660'}
-  - {seq: 1, filename: KR6q0275_001.yaml, hash: 'sha256:3783dcfa51e1c46a0c462456fedef0d435e6735f17df9851ec239ed14dcfb71f'}
+  - {seq: 1, filename: KR6q0275_001.yaml, hash: 'sha256:0fa232350d4e8533e2ffc97c553f1c86056cbe0a66d2d9eb5438982ff9311fbc'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6q0275_000.markers.yaml, hash: 'sha256:af1279696004bda8aa1b51bcf987a41b1ef1ca122f4827170028c37b39374244'}
-  - {seq: 1, role: markers, filename: assets/KR6q0275_001.markers.yaml, hash: 'sha256:5bef9c3453b3ad914c6ced4e45484d02021db89ce550c3d3c09d0ee5378a0315'}
+  - {seq: 1, role: markers, filename: assets/KR6q0275_001.markers.yaml, hash: 'sha256:319998d309a91807b609142f1094e445ba70e9bf03646d3ccf0609dbc7f207b5'}
 table_of_contents:
 - ref:
     seq: 1
@@ -47,4 +47,7 @@ table_of_contents:
   label: No. 1339-A 滌州琅邪山覺和尚中後四錄
   type: mulu
   level: 1
-hash: sha256:f312d5f4f60cd9ee66d81ccbbf624feb4b026d61b9fdfb06189106f0c441611c
+hash: sha256:f026249bf8209a588b609e4610acf5c816c8e0e15e8de51c80fb647b3aec4e10
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
